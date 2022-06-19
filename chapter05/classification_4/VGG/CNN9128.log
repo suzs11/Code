@@ -1,0 +1,28 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+要开始，请键入 doc。
+有关产品信息，请访问 www.mathworks.com。
+ 
+    "Momentum is :  0.69794"
+
+    "InitialLeranRate is :0.025374"
+
+    "L2Regularizatio is :0.00030863"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 0.9780407
+    "Momentum is :  0.8046"
+
+    "InitialLeranRate is :0.077105"
+
+    "L2Regularizatio is :0.00010991"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 0.9769687

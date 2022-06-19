@@ -1,0 +1,304 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+要开始，请键入 doc。
+有关产品信息，请访问 www.mathworks.com。
+ 
+
+layersTransfer = 
+
+  38x1 Layer array with layers:
+
+     1   'input'     Image Input       224x224x3 images with 'zerocenter' normalization
+     2   'conv1_1'   Convolution       64 3x3x3 convolutions with stride [1  1] and padding [1  1  1  1]
+     3   'relu1_1'   ReLU              ReLU
+     4   'conv1_2'   Convolution       64 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     5   'relu1_2'   ReLU              ReLU
+     6   'pool1'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+     7   'conv2_1'   Convolution       128 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     8   'relu2_1'   ReLU              ReLU
+     9   'conv2_2'   Convolution       128 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    10   'relu2_2'   ReLU              ReLU
+    11   'pool2'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    12   'conv3_1'   Convolution       256 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    13   'relu3_1'   ReLU              ReLU
+    14   'conv3_2'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    15   'relu3_2'   ReLU              ReLU
+    16   'conv3_3'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    17   'relu3_3'   ReLU              ReLU
+    18   'pool3'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    19   'conv4_1'   Convolution       512 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    20   'relu4_1'   ReLU              ReLU
+    21   'conv4_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    22   'relu4_2'   ReLU              ReLU
+    23   'conv4_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    24   'relu4_3'   ReLU              ReLU
+    25   'pool4'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    26   'conv5_1'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    27   'relu5_1'   ReLU              ReLU
+    28   'conv5_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    29   'relu5_2'   ReLU              ReLU
+    30   'conv5_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    31   'relu5_3'   ReLU              ReLU
+    32   'pool5'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    33   'fc6'       Fully Connected   4096 fully connected layer
+    34   'relu6'     ReLU              ReLU
+    35   'drop6'     Dropout           50% dropout
+    36   'fc7'       Fully Connected   4096 fully connected layer
+    37   'relu7'     ReLU              ReLU
+    38   'drop7'     Dropout           50% dropout
+
+layersTransfer = 
+
+  38x1 Layer array with layers:
+
+     1   'input'     Image Input       224x224x3 images with 'zerocenter' normalization
+     2   'conv1_1'   Convolution       64 3x3x3 convolutions with stride [1  1] and padding [1  1  1  1]
+     3   'relu1_1'   ReLU              ReLU
+     4   'conv1_2'   Convolution       64 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     5   'relu1_2'   ReLU              ReLU
+     6   'pool1'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+     7   'conv2_1'   Convolution       128 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     8   'relu2_1'   ReLU              ReLU
+     9   'conv2_2'   Convolution       128 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    10   'relu2_2'   ReLU              ReLU
+    11   'pool2'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    12   'conv3_1'   Convolution       256 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    13   'relu3_1'   ReLU              ReLU
+    14   'conv3_2'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    15   'relu3_2'   ReLU              ReLU
+    16   'conv3_3'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    17   'relu3_3'   ReLU              ReLU
+    18   'pool3'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    19   'conv4_1'   Convolution       512 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    20   'relu4_1'   ReLU              ReLU
+    21   'conv4_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    22   'relu4_2'   ReLU              ReLU
+    23   'conv4_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    24   'relu4_3'   ReLU              ReLU
+    25   'pool4'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    26   'conv5_1'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    27   'relu5_1'   ReLU              ReLU
+    28   'conv5_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    29   'relu5_2'   ReLU              ReLU
+    30   'conv5_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    31   'relu5_3'   ReLU              ReLU
+    32   'pool5'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    33   'fc6'       Fully Connected   4096 fully connected layer
+    34   'relu6'     ReLU              ReLU
+    35   'drop6'     Dropout           50% dropout
+    36   'fc7'       Fully Connected   4096 fully connected layer
+    37   'relu7'     ReLU              ReLU
+    38   'drop7'     Dropout           50% dropout
+    "Momentum is :  0.79795"
+
+    "InitialLeranRate is :0.093922"
+
+    "L2Regularizatio is :0.00016362"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+
+layersTransfer = 
+
+  38x1 Layer array with layers:
+
+     1   'input'     Image Input       224x224x3 images with 'zerocenter' normalization
+     2   'conv1_1'   Convolution       64 3x3x3 convolutions with stride [1  1] and padding [1  1  1  1]
+     3   'relu1_1'   ReLU              ReLU
+     4   'conv1_2'   Convolution       64 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     5   'relu1_2'   ReLU              ReLU
+     6   'pool1'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+     7   'conv2_1'   Convolution       128 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     8   'relu2_1'   ReLU              ReLU
+     9   'conv2_2'   Convolution       128 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    10   'relu2_2'   ReLU              ReLU
+    11   'pool2'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    12   'conv3_1'   Convolution       256 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    13   'relu3_1'   ReLU              ReLU
+    14   'conv3_2'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    15   'relu3_2'   ReLU              ReLU
+    16   'conv3_3'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    17   'relu3_3'   ReLU              ReLU
+    18   'pool3'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    19   'conv4_1'   Convolution       512 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    20   'relu4_1'   ReLU              ReLU
+    21   'conv4_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    22   'relu4_2'   ReLU              ReLU
+    23   'conv4_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    24   'relu4_3'   ReLU              ReLU
+    25   'pool4'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    26   'conv5_1'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    27   'relu5_1'   ReLU              ReLU
+    28   'conv5_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    29   'relu5_2'   ReLU              ReLU
+    30   'conv5_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    31   'relu5_3'   ReLU              ReLU
+    32   'pool5'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    33   'fc6'       Fully Connected   4096 fully connected layer
+    34   'relu6'     ReLU              ReLU
+    35   'drop6'     Dropout           50% dropout
+    36   'fc7'       Fully Connected   4096 fully connected layer
+    37   'relu7'     ReLU              ReLU
+    38   'drop7'     Dropout           50% dropout
+    "Momentum is :  0.85691"
+
+    "InitialLeranRate is :0.078694"
+
+    "L2Regularizatio is :0.00019475"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 0.9975007
+
+layersTransfer = 
+
+  38x1 Layer array with layers:
+
+     1   'input'     Image Input       224x224x3 images with 'zerocenter' normalization
+     2   'conv1_1'   Convolution       64 3x3x3 convolutions with stride [1  1] and padding [1  1  1  1]
+     3   'relu1_1'   ReLU              ReLU
+     4   'conv1_2'   Convolution       64 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     5   'relu1_2'   ReLU              ReLU
+     6   'pool1'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+     7   'conv2_1'   Convolution       128 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     8   'relu2_1'   ReLU              ReLU
+     9   'conv2_2'   Convolution       128 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    10   'relu2_2'   ReLU              ReLU
+    11   'pool2'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    12   'conv3_1'   Convolution       256 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    13   'relu3_1'   ReLU              ReLU
+    14   'conv3_2'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    15   'relu3_2'   ReLU              ReLU
+    16   'conv3_3'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    17   'relu3_3'   ReLU              ReLU
+    18   'pool3'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    19   'conv4_1'   Convolution       512 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    20   'relu4_1'   ReLU              ReLU
+    21   'conv4_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    22   'relu4_2'   ReLU              ReLU
+    23   'conv4_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    24   'relu4_3'   ReLU              ReLU
+    25   'pool4'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    26   'conv5_1'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    27   'relu5_1'   ReLU              ReLU
+    28   'conv5_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    29   'relu5_2'   ReLU              ReLU
+    30   'conv5_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    31   'relu5_3'   ReLU              ReLU
+    32   'pool5'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    33   'fc6'       Fully Connected   4096 fully connected layer
+    34   'relu6'     ReLU              ReLU
+    35   'drop6'     Dropout           50% dropout
+    36   'fc7'       Fully Connected   4096 fully connected layer
+    37   'relu7'     ReLU              ReLU
+    38   'drop7'     Dropout           50% dropout
+    "Momentum is :  0.59704"
+
+    "InitialLeranRate is :0.08438"
+
+    "L2Regularizatio is :0.00038089"
+
+    "MaxEpochs is: 7"
+
+The accuracy of test set classification is 1.0000007
+
+layersTransfer = 
+
+  38x1 Layer array with layers:
+
+     1   'input'     Image Input       224x224x3 images with 'zerocenter' normalization
+     2   'conv1_1'   Convolution       64 3x3x3 convolutions with stride [1  1] and padding [1  1  1  1]
+     3   'relu1_1'   ReLU              ReLU
+     4   'conv1_2'   Convolution       64 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     5   'relu1_2'   ReLU              ReLU
+     6   'pool1'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+     7   'conv2_1'   Convolution       128 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     8   'relu2_1'   ReLU              ReLU
+     9   'conv2_2'   Convolution       128 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    10   'relu2_2'   ReLU              ReLU
+    11   'pool2'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    12   'conv3_1'   Convolution       256 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    13   'relu3_1'   ReLU              ReLU
+    14   'conv3_2'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    15   'relu3_2'   ReLU              ReLU
+    16   'conv3_3'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    17   'relu3_3'   ReLU              ReLU
+    18   'pool3'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    19   'conv4_1'   Convolution       512 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    20   'relu4_1'   ReLU              ReLU
+    21   'conv4_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    22   'relu4_2'   ReLU              ReLU
+    23   'conv4_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    24   'relu4_3'   ReLU              ReLU
+    25   'pool4'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    26   'conv5_1'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    27   'relu5_1'   ReLU              ReLU
+    28   'conv5_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    29   'relu5_2'   ReLU              ReLU
+    30   'conv5_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    31   'relu5_3'   ReLU              ReLU
+    32   'pool5'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    33   'fc6'       Fully Connected   4096 fully connected layer
+    34   'relu6'     ReLU              ReLU
+    35   'drop6'     Dropout           50% dropout
+    36   'fc7'       Fully Connected   4096 fully connected layer
+    37   'relu7'     ReLU              ReLU
+    38   'drop7'     Dropout           50% dropout
+    "Momentum is :  0.55184"
+
+    "InitialLeranRate is :0.061612"
+
+    "L2Regularizatio is :0.00025019"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+
+layersTransfer = 
+
+  38x1 Layer array with layers:
+
+     1   'input'     Image Input       224x224x3 images with 'zerocenter' normalization
+     2   'conv1_1'   Convolution       64 3x3x3 convolutions with stride [1  1] and padding [1  1  1  1]
+     3   'relu1_1'   ReLU              ReLU
+     4   'conv1_2'   Convolution       64 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     5   'relu1_2'   ReLU              ReLU
+     6   'pool1'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+     7   'conv2_1'   Convolution       128 3x3x64 convolutions with stride [1  1] and padding [1  1  1  1]
+     8   'relu2_1'   ReLU              ReLU
+     9   'conv2_2'   Convolution       128 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    10   'relu2_2'   ReLU              ReLU
+    11   'pool2'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    12   'conv3_1'   Convolution       256 3x3x128 convolutions with stride [1  1] and padding [1  1  1  1]
+    13   'relu3_1'   ReLU              ReLU
+    14   'conv3_2'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    15   'relu3_2'   ReLU              ReLU
+    16   'conv3_3'   Convolution       256 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    17   'relu3_3'   ReLU              ReLU
+    18   'pool3'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    19   'conv4_1'   Convolution       512 3x3x256 convolutions with stride [1  1] and padding [1  1  1  1]
+    20   'relu4_1'   ReLU              ReLU
+    21   'conv4_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    22   'relu4_2'   ReLU              ReLU
+    23   'conv4_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    24   'relu4_3'   ReLU              ReLU
+    25   'pool4'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    26   'conv5_1'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    27   'relu5_1'   ReLU              ReLU
+    28   'conv5_2'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    29   'relu5_2'   ReLU              ReLU
+    30   'conv5_3'   Convolution       512 3x3x512 convolutions with stride [1  1] and padding [1  1  1  1]
+    31   'relu5_3'   ReLU              ReLU
+    32   'pool5'     Max Pooling       2x2 max pooling with stride [2  2] and padding [0  0  0  0]
+    33   'fc6'       Fully Connected   4096 fully connected layer
+    34   'relu6'     ReLU              ReLU
+    35   'drop6'     Dropout           50% dropout
+    36   'fc7'       Fully Connected   4096 fully connected layer
+    37   'relu7'     ReLU              ReLU
+    38   'drop7'     Dropout           50% dropout

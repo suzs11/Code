@@ -1,0 +1,191 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+要开始，请键入 doc。
+有关产品信息，请访问 www.mathworks.com。
+ 
+    "Momentum is :  0.67082"
+
+    "InitialLeranRate is :0.012852"
+
+    "L2Regularizatio is :0.00025321"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.88215"
+
+    "InitialLeranRate is :0.067811"
+
+    "L2Regularizatio is :0.00049648"
+
+    "MaxEpochs is: 6"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.7897"
+
+    "InitialLeranRate is :0.061018"
+
+    "L2Regularizatio is :0.00021473"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.73236"
+
+    "InitialLeranRate is :0.043877"
+
+    "L2Regularizatio is :0.00038248"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.7161"
+
+    "InitialLeranRate is :0.029129"
+
+    "L2Regularizatio is :0.00031408"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.78218"
+
+    "InitialLeranRate is :0.081294"
+
+    "L2Regularizatio is :0.00017728"
+
+    "MaxEpochs is: 7"
+
+The accuracy of test set classification is 0.9987507
+    "Momentum is :  0.50201"
+
+    "InitialLeranRate is :0.02309"
+
+    "L2Regularizatio is :0.00037577"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.81301"
+
+    "InitialLeranRate is :0.054023"
+
+    "L2Regularizatio is :0.00012018"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.87074"
+
+    "InitialLeranRate is :0.011156"
+
+    "L2Regularizatio is :0.00017377"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.50332"
+
+    "InitialLeranRate is :0.026795"
+
+    "L2Regularizatio is :0.00011826"
+
+    "MaxEpochs is: 6"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.82985"
+
+    "InitialLeranRate is :0.053671"
+
+    "L2Regularizatio is :0.00045402"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.80693"
+
+    "InitialLeranRate is :0.08544"
+
+    "L2Regularizatio is :0.00043592"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.89885"
+
+    "InitialLeranRate is :0.022695"
+
+    "L2Regularizatio is :0.00014726"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.59106"
+
+    "InitialLeranRate is :0.0759"
+
+    "L2Regularizatio is :0.00026417"
+
+    "MaxEpochs is: 6"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.86782"
+
+    "InitialLeranRate is :0.072196"
+
+    "L2Regularizatio is :0.00014809"
+
+    "MaxEpochs is: 7"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.7568"
+
+    "InitialLeranRate is :0.013104"
+
+    "L2Regularizatio is :0.00032884"
+
+    "MaxEpochs is: 6"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.54213"
+
+    "InitialLeranRate is :0.053997"
+
+    "L2Regularizatio is :0.00047976"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.60726"
+
+    "InitialLeranRate is :0.097425"
+
+    "L2Regularizatio is :0.00020255"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.80554"
+
+    "InitialLeranRate is :0.020121"
+
+    "L2Regularizatio is :0.00049595"
+
+    "MaxEpochs is: 7"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.8222"
+
+    "InitialLeranRate is :0.076889"
+
+    "L2Regularizatio is :0.00023992"
+
+    "MaxEpochs is: 7"
+
+The accuracy of test set classification is 1.0000007
+slurmstepd: error: *** JOB 2315 ON gpu5 CANCELLED AT 2022-03-20T10:57:59 ***

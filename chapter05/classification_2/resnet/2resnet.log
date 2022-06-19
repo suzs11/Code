@@ -1,0 +1,379 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+要开始，请键入 doc。
+有关产品信息，请访问 www.mathworks.com。
+ 
+    "Momentum is :  0.79795"
+
+    "InitialLeranRate is :0.093922"
+
+    "L2Regularizatio is :0.00016362"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.85691"
+
+    "InitialLeranRate is :0.078694"
+
+    "L2Regularizatio is :0.00019475"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.59704"
+
+    "InitialLeranRate is :0.08438"
+
+    "L2Regularizatio is :0.00038089"
+
+    "MaxEpochs is: 7"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.55184"
+
+    "InitialLeranRate is :0.061612"
+
+    "L2Regularizatio is :0.00025019"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.59003"
+
+    "InitialLeranRate is :0.081332"
+
+    "L2Regularizatio is :0.00048948"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.64001"
+
+    "InitialLeranRate is :0.039614"
+
+    "L2Regularizatio is :0.00048892"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.61483"
+
+    "InitialLeranRate is :0.030112"
+
+    "L2Regularizatio is :0.00035748"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.871"
+
+    "InitialLeranRate is :0.038115"
+
+    "L2Regularizatio is :0.00044404"
+
+    "MaxEpochs is: 7"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.52053"
+
+    "InitialLeranRate is :0.062607"
+
+    "L2Regularizatio is :0.00026075"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.73707"
+
+    "InitialLeranRate is :0.084692"
+
+    "L2Regularizatio is :0.00035277"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.56516"
+
+    "InitialLeranRate is :0.036142"
+
+    "L2Regularizatio is :0.00049409"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.83536"
+
+    "InitialLeranRate is :0.04623"
+
+    "L2Regularizatio is :0.00032379"
+
+    "MaxEpochs is: 6"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.56702"
+
+    "InitialLeranRate is :0.087585"
+
+    "L2Regularizatio is :0.00047344"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.70088"
+
+    "InitialLeranRate is :0.065327"
+
+    "L2Regularizatio is :0.00038814"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.89973"
+
+    "InitialLeranRate is :0.099207"
+
+    "L2Regularizatio is :0.00029362"
+
+    "MaxEpochs is: 6"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.64216"
+
+    "InitialLeranRate is :0.028333"
+
+    "L2Regularizatio is :0.00035561"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.51883"
+
+    "InitialLeranRate is :0.084449"
+
+    "L2Regularizatio is :0.00045505"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.58546"
+
+    "InitialLeranRate is :0.070828"
+
+    "L2Regularizatio is :0.00017949"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.65914"
+
+    "InitialLeranRate is :0.032405"
+
+    "L2Regularizatio is :0.00025815"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.63347"
+
+    "InitialLeranRate is :0.052821"
+
+    "L2Regularizatio is :0.00049687"
+
+    "MaxEpochs is: 6"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.59184"
+
+    "InitialLeranRate is :0.045917"
+
+    "L2Regularizatio is :0.00026094"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.87445"
+
+    "InitialLeranRate is :0.063949"
+
+    "L2Regularizatio is :0.00036354"
+
+    "MaxEpochs is: 7"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.77328"
+
+    "InitialLeranRate is :0.082047"
+
+    "L2Regularizatio is :0.00046054"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.88485"
+
+    "InitialLeranRate is :0.019456"
+
+    "L2Regularizatio is :0.00049815"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.67519"
+
+    "InitialLeranRate is :0.08393"
+
+    "L2Regularizatio is :0.00036127"
+
+    "MaxEpochs is: 6"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.87613"
+
+    "InitialLeranRate is :0.085698"
+
+    "L2Regularizatio is :0.00014337"
+
+    "MaxEpochs is: 7"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.50233"
+
+    "InitialLeranRate is :0.041906"
+
+    "L2Regularizatio is :0.00011445"
+
+    "MaxEpochs is: 8"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.74412"
+
+    "InitialLeranRate is :0.048706"
+
+    "L2Regularizatio is :0.00034724"
+
+    "MaxEpochs is: 7"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.82043"
+
+    "InitialLeranRate is :0.061502"
+
+    "L2Regularizatio is :0.00032686"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.59319"
+
+    "InitialLeranRate is :0.073074"
+
+    "L2Regularizatio is :0.00048479"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.5"
+
+    "InitialLeranRate is :0.01"
+
+    "L2Regularizatio is :0.00014098"
+
+    "MaxEpochs is: 5"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.5"
+
+    "InitialLeranRate is :0.074786"
+
+    "L2Regularizatio is :0.0001"
+
+    "MaxEpochs is: 5"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.5"
+
+    "InitialLeranRate is :0.076219"
+
+    "L2Regularizatio is :0.0001"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.5"
+
+    "InitialLeranRate is :0.013408"
+
+    "L2Regularizatio is :0.00022012"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.73679"
+
+    "InitialLeranRate is :0.01"
+
+    "L2Regularizatio is :0.0001"
+
+    "MaxEpochs is: 10"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.5"
+
+    "InitialLeranRate is :0.01"
+
+    "L2Regularizatio is :0.0001"
+
+    "MaxEpochs is: 5"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.5"
+
+    "InitialLeranRate is :0.04178"
+
+    "L2Regularizatio is :0.0001"
+
+    "MaxEpochs is: 5"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.5"
+
+    "InitialLeranRate is :0.043481"
+
+    "L2Regularizatio is :0.0001"
+
+    "MaxEpochs is: 9"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.5"
+
+    "InitialLeranRate is :0.01"
+
+    "L2Regularizatio is :0.0001"
+
+    "MaxEpochs is: 5"
+
+The accuracy of test set classification is 1.0000007
+    "Momentum is :  0.9"
+
+    "InitialLeranRate is :0.033376"
+
+    "L2Regularizatio is :0.00025483"
+
+    "MaxEpochs is: 5"
+
+The accuracy of test set classification is 0.9900007
+    "Momentum is :  0.5"
+
+    "InitialLeranRate is :0.064401"
+
+    "L2Regularizatio is :0.0001"
+
+    "MaxEpochs is: 5"
+
+The accuracy of test set classification is 1.0000007
